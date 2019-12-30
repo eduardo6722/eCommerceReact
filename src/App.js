@@ -1,8 +1,8 @@
-import React from "react";
-import "./App.css";
+import React from 'react';
+import './App.css';
 
-import HomePage from "./pages/homepage/index";
+import Routes from './routes/routes';
 
-const App = () => <HomePage />;
+const App = () => <Routes />;
 
 export default App;
